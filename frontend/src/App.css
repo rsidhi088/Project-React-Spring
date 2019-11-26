@@ -1,0 +1,91 @@
+body {
+  min-height: 100vh;
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+p.big-p {
+  font-size: 22pt;
+  font-weight: 400;
+}
+
+p.big-p::first-letter {
+  color: #dc4028;
+  font-size: 50pt;
+  font-weight: 600;
+}
+
+.card {
+  background-color: whitesmoke;
+  border: 2px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0;
+}
+
+.row-3 {
+  position: relative;
+  float: left;
+  height: 120pt;
+  max-width: 100%;
+  width: 33.3%;
+}
+
+@media screen and (max-width: 600px) {
+  .row-3 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .row-3 {
+    width: 100%;
+  }
+}
+
+.mt-5 {
+  margin-top: 0pt !important;
+  background-color: rgba(0, 0, 0, 0.025);
+  min-height: 100vh;
+}
+
+.center-content {
+  align-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.big-content p {
+  font-size: 22pt;
+}
+
+.div-img {
+  position: relative;
+  z-index: -1;
+  border: 1px solid #000000;
+}
+
+.div-img img {
+  max-width:100%;
+  max-height:100%;
+}
